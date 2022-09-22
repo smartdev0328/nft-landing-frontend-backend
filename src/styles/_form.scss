@@ -1,0 +1,25 @@
+.password-hint {
+	font-size: 10px;
+}
+
+.has-error {
+	border: 1px solid rgba(255, 0, 0, 0.5) !important;
+}
+
+.step-component-container {
+	margin-bottom: 32px;
+	.step-component-wrapper {
+		margin: 0px 16px;
+	}
+	.dash-line {
+		width: 155px;
+		height: 0px;
+		margin-top: 40px;
+		border-top: 2px dashed rgb(112, 112, 112);
+	}
+}
+
+.input-dropdown {
+	max-height: 32px;
+	max-width: 32px;
+}

@@ -1,0 +1,102 @@
+.dialog-content-container {
+	padding: 32px;
+}
+
+.load-spinner-progresss-container {
+	background-color: rgba(255, 255, 255);
+	padding: 24px;
+	color: #282c34;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, rgba(0, 0, 0, 0.14) 0px 24px 38px 3px,
+		rgba(0, 0, 0, 0.12) 0px 9px 46px 8px;
+	position: relative;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	border-radius: 10px;
+	p {
+		padding-top: 16px;
+	}
+}
+
+.inventory-input-display {
+	min-height: 44px;
+	display: flex;
+	align-items: center !important;
+	.info-text {
+		margin-left: 0.5rem;
+	}
+	img {
+		object-fit: contain;
+	}
+}
+
+.inventory-alert {
+	margin-bottom: 16px;
+}
+
+#egg_section_background {
+	transition: box-shadow 1s ease-in-out;
+	&:focus {
+		// /*Reflection*/
+		// -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(rgba(0, 0, 0, 0.4)));
+		// /*Glow*/
+		// -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+		// -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+		box-shadow: 0px 0px 40px rgba(255, 218, 135, 0.5);
+		transition: box-shadow 1s ease-in-out;
+	}
+}
+
+.nft-close-button {
+	margin-right: 16px !important;
+}
+
+.action-message-container {
+	padding: 8px;
+	margin-top: 16px;
+	border: 2px solid rgba(255, 0, 0, 0.2);
+	border-radius: 5px;
+	background-color: rgba(255, 0, 0, 0.2);
+	&.success {
+		border: 2px solid rgba(50, 173, 97, 0.2);
+		background-color: rgba(50, 173, 97, 0.2);
+	}
+	&.info {
+		border: 2px solid rgba(77, 171, 245, 0.2);
+		background-color: rgba(77, 171, 245, 0.2);
+	}
+}
+
+.telegram-container {
+	background: -webkit-linear-gradient(150deg, #38aecc 10%, #347fb9 150%); /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(150deg, #38aecc 10%, #347fb9 150%); /* FF3.6+ */
+	background: linear-gradient(150deg, #38aecc 10%, #347fb9 150%); /* W3C */
+	height: 100%;
+}
+
+.page-container {
+	min-height: 100vh;
+}
+
+.terms-and-condition-wrapper {
+	border: 1px solid #888;
+	overflow: auto;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+.dialog-content-container {
+	max-height: calc(100vh - 70px);
+}
+
+.terms-and-condition-agreement-container {
+	font-size: 0.8rem;
+	justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	span {
+		padding-left: 0px;
+	}
+}
